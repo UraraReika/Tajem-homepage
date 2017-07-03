@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	color: #7a7a7a;
+	font-family: Roboto, sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+h3{
+	color: #413d4b;
+	font-family: PlayfairDisplay, sans-serif;
+	font-size: 22px;
+	font-weight: 900;
+}
+
+.my-btn{
+	background-color: transparent;
+	border-radius: 1px;
+	border: 1px solid #00e0d0;
+	color: #00e0d0;
+	font-family: HammersmithOne, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 15px;
+	text-transform: uppercase;
+}
+
+.my-btn:hover{
+	border: 1px solid #049187;
+	color: #049187;
+}
+
+.col-spase{
+	margin-bottom: 15px;
+}
+
+/*-----------------------------------HEADER----------------------------------*/
+/*==========CAROUSEL============*/
+.carousel.fade{
+    opacity: 1;
+}
+
+.carousel.fade .item{
+    display: block;
+    left: 0;
+    opacity: 0;
+    min-height: 600px;
+    position: absolute;
+    top: 0;
+    transition: opacity .5s;
+    width: 100%;
+    z-index: 1;
+}
+
+.carousel.fade .item.active{
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+
+.bg-slide{
+	background-image: url(../images/back_header.jpg);
+	background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.carousel.fade .item .container{
+	padding: 230px 0 210px 0;
+}
+
+.carousel.fade .item h2{
+	color: #fff;
+	font-family: PlayfairDisplay, sans-serif;
+	font-size: 32px;
+	font-weight: 900;
+	margin: 0;
+}
+
+.carousel.fade .item .container span{
+	border-bottom: 1px solid #00e0d0;
+	margin-top: 25px;
+}
+
+.carousel.fade .item p{
+	color: #fff;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.carousel-indicators{
+	bottom: 50px;
+}
+
+.carousel-indicators .active{
+	background-color: #00e0d0;
+}
+
+/*==============MENU==============*/
+.navbar{
+	left: 0;
+	position: absolute;
+	right: 0;
+	z-index: 3;
+}
+
+.navbar-nav>li>a{
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-size: 13px;
+	font-weight: 900;
+	margin-left: 20px;
+	margin-top: 35px;
+	padding: 0;
+	text-shadow: none;
+	text-transform: uppercase;
+}
+
+.navbar-nav>li>a:hover{
+	background-color: transparent;
+	color: #00e0d0;
+}
+
+.navbar-toggle{
+	border: 1px solid #00e0d0;
+	margin-top: 20px;
+}
+
+.navbar-toggle .icon-bar{
+	background-color: #00e0d0;
+}
+
+/*-----------------------------------CONTENT----------------------------------*/
+/*==========ABOUT============*/
+.story-text{
+	padding: 70px 0;
+}
+.story-text h3{
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.story-text p{
+	color: 
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.img-responsive{
+	display: inline-block;
+}
+
+.story-video{
+	background-image: url(../images/back_video.png);
+	background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 550px;
+    padding: 25px 0;
+}
+
+.story-video .play{
+	display: block;
+	padding: 200px 0;
+	text-align: center;
+}
+
+.story-video .play i,
+.story-video .play h3{
+	color: #fff;
+}
+
+/* .embed-responsive.embed-responsive-16by9 {
+	padding-bottom: 56.25%;
+}
+ 
+.embed-responsive.embed-responsive-4by3 {
+	padding-bottom: 75%;
+}
+ 
+.embed-responsive{
+	position: relative;
+	display: block;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+	width:100%;
+}
+ 
+.embed-responsive .embed-responsive-item, 
+.embed-responsive iframe, 
+.embed-responsive embed, 
+.embed-responsive object{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+} */
+
+
+/*==========EXPERTISE============*/
+#expertise{
+	padding: 70px 0;
+}
+
+#expertise .title p{
+	font-family: PlayfairDisplay, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 20px 0;
+
+}
+
+#expertise .title span{
+	border-top: 2px solid #c6c4c9; 
+	margin-bottom: 75px;
+}
+
+#expertise h4{
+	color: #413d4b;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	margin-bottom: 25px;
+	margin-top: 30px;
+}
+
+#expertise .title.col-spase{
+	margin-bottom: 75px;
+}
+
+#expertise .col-spase{
+	margin-bottom: 35px;
+}
+
+.line div{
+	border-bottom: 1px solid #ebebeb;
+}
+
+#expertise .fa{
+	background: linear-gradient(90deg, #01dfd0, #48a5cc);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	-moz-background-clip: text;
+  	-moz-text-fill-color: transparent;
+  	color: #0B2349;
+}
+
+/*==========TEAM============*/
+#team{
+	background-image: url(../images/back_team.png);
+	background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 710px;
+	padding: 70px 0;
+}
+
+#team h3{
+	color: #fff;
+}
+
+#team .title p{
+	color: #fff;
+	font-family: PlayfairDisplay, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 20px 0;
+
+}
+
+#team .title span{
+	border-top: 2px solid #c6c4c9; 
+	color: #655b80;
+	margin-bottom: 45px;
+}
+
+#team figure{
+	display: inline-block;
+}
+
+#team figcaption{
+	border: 1px solid #77768b;
+	padding: 20px 0;
+}
+
+#team figcaption p{
+	color: #77768b;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+#team figcaption p span{
+	color: #fff;
+	display: inline-block;
+	font-weight: 900;
+	margin-bottom: 10px
+} 
+
+#team .hire{
+	margin-top: 70px;
+}
+
+#team .hire p{
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.container-fluid>.navbar-collapse, 
+	.container-fluid>.navbar-header, 
+	.container>.navbar-collapse, 
+	.container>.navbar-header{
+		background-color: #403269;
+    	padding-bottom: 10px;
+	}
+
+	.carousel.fade .item .container{
+		padding: 150px 0;
+	}
+
+	.story-text .row div.position{
+		text-align: center;
+	}
+
+	.story-text p{
+		text-align: left;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
