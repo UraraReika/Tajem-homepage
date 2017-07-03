@@ -325,6 +325,108 @@ h3{
 	margin-bottom: 20px;
 }
 
+/*==========WORKS============*/
+#works{
+	padding: 70px 0;
+}
+
+#works h3,
+#works p{
+	margin: 0;
+}
+
+#works i{
+	margin-left: 5px;
+}
+
+#works a{
+	color: #7a7a7a;
+}
+
+#works button{
+	margin-top: 70px;
+}
+
+#works .container-fluid{
+	margin-top: 50px;
+}
+
+#works [class*=col-]{
+	padding: 0;
+}
+
+/*==========PEOPLE-SAY============*/
+#people-say{
+	background-image: url(../images/back_team.png);
+	background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+	padding: 70px 0;
+}
+
+#people-say .carousel-indicators li{
+	background: url('http://fakeimg.pl/45x45/');
+	border-radius: 50%;
+	width: 45px;
+    height: 45px;
+    position: relative;
+    bottom: 5px;
+}
+
+#people-say .carousel-indicators li.active{
+	background: url('http://fakeimg.pl/70x70/');
+	border-radius: 50%;
+	width: 70px;
+    height: 70px;
+    position: relative;
+    top: 5px;
+}
+
+#people-say .container{
+	padding-top: 70px;
+}
+
+#people-say .item i{
+	color: #fff;
+}
+
+#people-say .item h3{
+	color: #fff;
+}
+
+#people-say .item p{
+	color: #fff;
+	margin-bottom: 50px;
+	margin-top: 35px;
+}
+
+#people-say .item div p span{
+	display: inline-block;
+	font-weight: 900;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+#people-say .item div p{
+	margin-bottom: 45px;
+}
+
+#people-say .carousel-indicators{
+	bottom: 0;
+}
+
+#people-say .carousel-control{
+	bottom: 50px;
+	top: -50px
+}
+
+#people-say .carousel-control.left,
+#people-say .carousel-control.right{
+	background-image: none;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -360,5 +462,18 @@ h3{
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	
+	#people-say .carousel-indicators li{
+		width: 25px;
+	    height: 25px;
+	}
+
+	#people-say .carousel-indicators li.active{
+		width: 50px;
+	    height: 50px;
+	}
+
+	#people-say .carousel-control{
+		bottom: 35px;
+		top: -35px
+	}
 }
