@@ -51,6 +51,8 @@ h3{
     min-height: 600px;
     position: absolute;
     top: 0;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s;
     transition: opacity .5s;
     width: 100%;
     z-index: 1;
@@ -65,8 +67,6 @@ h3{
 .bg-slide{
 	background-image: url(../images/back_header.jpg);
 	background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
     height: 100%;
     left: 0;
@@ -163,8 +163,6 @@ h3{
 .story-video{
 	background-image: url(../images/back_video.png);
 	background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
     min-height: 550px;
     padding: 25px 0;
@@ -252,6 +250,9 @@ h3{
 }
 
 #expertise .fa{
+	background: -webkit-gradient(linear, left top, right top, from(#01dfd0), to(#48a5cc));
+	background: -webkit-linear-gradient(left, #01dfd0, #48a5cc);
+	background: -o-linear-gradient(left, #01dfd0, #48a5cc);
 	background: linear-gradient(90deg, #01dfd0, #48a5cc);
 	-webkit-background-clip: text;
   	-webkit-text-fill-color: transparent;
@@ -264,8 +265,6 @@ h3{
 #team{
 	background-image: url(../images/back_team.png);
 	background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
     min-height: 710px;
 	padding: 70px 0;
@@ -359,8 +358,6 @@ h3{
 #people-say{
 	background-image: url(../images/back_team.png);
 	background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
     min-height: 500px;
 	padding-bottom: 70px;
@@ -459,8 +456,6 @@ textarea.form-control{
 footer{
 	background-image: url(../images/back_footer.png);
 	background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
     background-size: cover;
     min-height: 400px;
     padding: 70px 0;
